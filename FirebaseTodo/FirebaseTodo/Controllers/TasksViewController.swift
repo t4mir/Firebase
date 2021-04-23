@@ -41,6 +41,7 @@ class TasksViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         if editingStyle == .delete {
             let task = tasks[indexPath.row]
             task.ref?.removeValue()
+            
         }
     }
     

@@ -85,7 +85,7 @@ class LoginViewController: UIViewController {
             if user != nil {
                 self?.performSegue(withIdentifier: "tasksSegue", sender: nil)
                 return
-            }
+            } 
             
             self?.didWarning(withText: "No such User")
         }
